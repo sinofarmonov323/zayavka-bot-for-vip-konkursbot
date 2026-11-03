@@ -8,7 +8,7 @@ from aiogram.fsm.state import State, StatesGroup
 
 dp = Dispatcher()
 
-ADMINS_ID = [7077167971] # ADMINlarning IDlari integer turida beriladi
+ADMINS_ID = [7077167971, 7972249893] # ADMINlarning IDlari integer turida beriladi
 
 class AdminStates(StatesGroup):
     send_message = State()
